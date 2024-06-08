@@ -4,6 +4,7 @@ from flask import Flask
 
 from board import pages, posts, database
 
+
 load_dotenv()
 
 def create_app():
